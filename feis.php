@@ -5,5 +5,5 @@
   $nueva = htmlspecialchars($_POST['nueva']);
   $nuevax2 = htmlspecialchars($_POST['nuevax2']);
 
-  echo  $actual, ' ', $nueva;
+  echo $actual, '', $nueva, '';
 ?>
